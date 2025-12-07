@@ -86,8 +86,8 @@ jobs:
 
     - name: 📡 Push docker image to Github Container Registry
       run: |
-        docker push ghcr.io/marmadilemanteater/freetubecordova-nightly:${{ steps.versionNumber.outputs.result }}
-        docker push ghcr.io/marmadilemanteater/freetubecordova-nightly:latest
+        docker push ghcr.io/Mafiadoener36/freetubecordova-nightly:${{ steps.versionNumber.outputs.result }}
+        docker push ghcr.io/Mafiadoener36/freetubecordova-nightly:latest
 
     - name: 📡 Upload PWA Artifact
       uses: actions/upload-artifact@v4.6.0
